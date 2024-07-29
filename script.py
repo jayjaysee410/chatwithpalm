@@ -9,7 +9,8 @@ from langchain.chains import ConversationalRetrievalChain
 from langchain.memory import ConversationBufferMemory
 import os
 
-os.environ['GOOGLE_API_KEY'] =  st.secrets['GOOGLE_API_KEY']
+#os.environ['GOOGLE_API_KEY'] =  st.secrets['GOOGLE_API_KEY']
+os.environ['GOOGLE_API_KEY'] ="AIzaSyCMv4lzZk-SLkJWsG-FlBlBoP0ngWUg3wY"
 
 def get_pdf_text(pdf_docs):
     text=""
